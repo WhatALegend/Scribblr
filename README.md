@@ -32,3 +32,15 @@ can see the same working prototype for discussion purpose
 
 Any developer should be able to get this running quickly by downloaidng the latest code from GIT and updating the applications
 configuration file to point at there database install, this will mean the table SQL will need to be kept up to date on GIT.
+
+-----------------------
+Technlogies
+----------------------
+- PHP
+- MySQL
+- jQuery
+- CSS 3
+- HTML 5
+- LAMP Installation to run
+
+More maybe added as we carry on with developemnt as use of different JS libs get added.
