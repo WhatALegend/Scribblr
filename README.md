@@ -1,40 +1,34 @@
-Scribblr
-========
-
-Midway Production
-
--------------------------
-The Aim
--------------------------
-
-This is the code for the MidWay Production of Scribblr. This is a social expirement to see what work of 
-art which can be created by a collective of different people.
-
-The art form is in the style of a story, using a demographic approach of voting for what the next part to the story
-should be.
-
-
-----------------------
-Technologies
-----------------------
-1. PHP
-2. mySQL
-3. jQuery
-4. API (Facebook, Twitter) -- Maybe moe.
-5. HTML 5 and CSS 3?
-
-
 ---------------------
-House Rules
+About
 ---------------------
 
-1. Please ensure any strange code is commented to ensure any of the developers can jump in and work on it.
-2. ????
+Scribblr is a social expirement for user to collabrate in the expirence of story wirting. An author will start a 
+new story by defining the story opening, the story will then become 'public' too anyone else registered to the site
+these users are then able to add the next part of the story, each part will then be democratically voted on with a
+voting system.
 
-Please update if you have any ideas
+Once we have a winning ection from the voting it will be added to the story. This will go on until the 'original author'
+either marks the story as finished or the story reaches a natrual end.
 
-------------------
-The Team
-------------------
-1. Mido - Lead Developer (Project Owner)
-2. Wayne - Developer 
+Users should be able to register/login to the site using the Facebook or Twitter API. The site should be in HTML 5 and CSS3
+using jQuery to ensure the user expirence is smooth and seemless with the need of new page loads to be minimal.
+
+---------------------
+What Needs Doing:
+---------------------
+- Login / Registration
+- Story Posting
+- Profiles
+- User Dashboard
+- Admin Dashboard
+- Voting Tool
+
+------------------------
+Testing Enviroment
+------------------------
+We will eventually need to agree on where the testing of the code will be ran, so its not just locally, but for time being
+local will be fine. We may need to set up port forwarding and make our local instances internet facing to ensure developers
+can see the same working prototype for discussion purpose
+
+Any developer should be able to get this running quickly by downloaidng the latest code from GIT and updating the applications
+configuration file to point at there database install, this will mean the table SQL will need to be kept up to date on GIT.
