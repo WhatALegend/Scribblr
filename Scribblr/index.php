@@ -1,6 +1,6 @@
 <?php
 	//Require the config for any database calls
-	require_once 'includes/config.php'
+	require_once 'includes/config.php';
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
