@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Wayne Shears -- Developer -- @WayneShears89
+	Mohamed Magdy Suleiman -- Developer -- @MidMag
 
 # THANKS
 
-    <name>
+    HTML5 BoilerPlate fore getting us of our feet, CS50x for driving our passions, and Facebook Messenger to keep us in touch
 
 # TECHNOLOGY COLOPHON
 
