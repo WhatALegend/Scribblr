@@ -168,6 +168,8 @@ class FGMembersite
     {
         return isset($_SESSION['email_of_user'])?$_SESSION['email_of_user']:'';
     }
+	
+
     
     function LogOut()
     {

@@ -3,7 +3,7 @@ require_once("./include/membersite_config.php");
 
 if(!$fgmembersite->CheckLogin())
 {
-    $fgmembersite->RedirectToURL("login.php");
+    $fgmembersite->RedirectToURL("index.php#login");
     exit;
 }
 ?>
@@ -35,12 +35,12 @@ if(!$fgmembersite->CheckLogin())
 		
 		      <div>
 				<span>Username:</span>
-				<a href="#" id="username" data-type="text" data-placement="right" data-title="Enter username">TestUser1</a>
+				<a href="#" id="username" data-type="text" data-placement="right" data-title="Enter username"><?php echo $username; ?></a>
 			</div>
 			<br>
 			<div>
 				<span>Full Name:</span>
-				<a href="#" id="fullname" data-type="text" data-placement="right" data-title="Enter Fullname">Mr Test User</a>
+				<a href="#" id="fullname" data-type="text" data-placement="right" data-title="Enter Fullname"><?= $fgmembersite->UserFullName(); ?></a>
 			</div>
 			<br>
 			<div>
@@ -50,7 +50,7 @@ if(!$fgmembersite->CheckLogin())
 			<br>
 			<div>
 				<span>Email:</span>
-				<a href="#" id="email" data-type="text" data-placement="right" data-title="Enter Email Address">test.user@googlemail.com</a>
+				<a href="#" id="email" data-type="text" data-placement="right" data-title="Enter Email Address"><?= $fgmembersite->UserEmail(); ?></a>
 			</div>
 			
 			

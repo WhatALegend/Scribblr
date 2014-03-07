@@ -3,7 +3,7 @@ require_once("./include/membersite_config.php");
 
 if(!$fgmembersite->CheckLogin())
 {
-    $fgmembersite->RedirectToURL("login.php");
+    $fgmembersite->RedirectToURL("index.php#login");
     exit;
 }
 
